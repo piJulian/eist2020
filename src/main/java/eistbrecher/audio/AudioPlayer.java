@@ -23,14 +23,5 @@ public class AudioPlayer implements MusicService {
 
     }
 
-    @Override
-    public void playShootSound() {
-
-    }
-
-    @Override
-    public void playHitSound() {
-
-    }
 
 }
