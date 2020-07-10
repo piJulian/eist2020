@@ -5,6 +5,7 @@ import eistbrecher.SmartPosition;
 
 public class Alien extends UIEntity {
     private static String imageFile= "img/alien.png";
+
     public Alien(DisplaySize gameBoardSize){
         super(gameBoardSize);
 

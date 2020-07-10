@@ -62,9 +62,6 @@ public abstract class UIEntity implements Observable {
     }
     public DisplaySize getDisplaySize(){return this.displaySize;}
 
-
-
-
     @Override
     public void setObserver(Observer observer) {
         this.observer = observer;

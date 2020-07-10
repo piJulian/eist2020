@@ -24,8 +24,7 @@ public class Cannon extends UIEntity{
     }
 
     @Override
-    public void move(int speed) {
-    }
+    public void move(int speed) {}
 
     public void shoot(int speed){
         SimplePosition simplePosition = new SimplePosition(this.getSmartPosition().getX()+this.getDisplaySize().getX()/2,this.getSmartPosition().getY());
